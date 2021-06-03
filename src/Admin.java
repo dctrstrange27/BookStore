@@ -159,7 +159,7 @@ public class Admin extends JFrame {
         setLayout(null);
         setResizable(false);
 
-        b1 = new ImageIcon("/home/rohan/IdeaProjects/FinalAct/img/admin.png");
+        b1 = new ImageIcon("/home/rohan/IdeaProjects/FinalAct/img/admin1.png");
         bb1 = new JLabel(b1);
         contentPane.add(bb1);
         bb1.setBounds(0,-20,1100,795);
@@ -418,9 +418,7 @@ public class Admin extends JFrame {
         head.setForeground(new Color(255,255,255));
         head.setPreferredSize(new Dimension(50, 50)); Border headerBorder = UIManager.getBorder("TableHeader.cellBorder");
         UIManager.getDefaults().put("TableHeader.cellBorder" , BorderFactory.createEmptyBorder(0,0,0,0));
-        table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
-        TableColumn col = table.getColumnModel().getColumn(0);
-        col.setPreferredWidth(10);
+
     }
 
     private Component contentPane() {
