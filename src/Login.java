@@ -11,7 +11,7 @@ public class Login extends JFrame{
 
     private JPanel pane;
     private JTextField boxUsername;
-    private JTextField boxPassword;
+    private JPasswordField boxPassword;
     private JButton login;
     private JButton clear;
     private JLabel username;
@@ -28,7 +28,7 @@ public class Login extends JFrame{
         setLayout(null);
         setResizable(false);
 
-        b1 = new ImageIcon("/home/rohan/IdeaProjects/FinalAct/img/Frame 1.png");
+        b1 = new ImageIcon("/home/rohan/IdeaProjects/FinalAct/img/login.png");
         bb1 = new JLabel(b1);
         pane.add(bb1);
         bb1.setBounds(0,-20,900,700);
@@ -42,7 +42,7 @@ public class Login extends JFrame{
         boxUsername.setBorder(null);
         pane.add(boxUsername);
 
-        boxPassword = new JTextField();
+        boxPassword = new JPasswordField();
         boxPassword.setBounds(180,300,240,30);
         boxPassword.setBackground(textBcolor);
         boxPassword.setForeground(textFontColor);
